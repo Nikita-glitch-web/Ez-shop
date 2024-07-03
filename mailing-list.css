@@ -1,0 +1,403 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+  }
+  html { height: 101%; } /* always display scrollbars */
+  body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+  .header-logo-first {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    border: 2px solid white; 
+    font-size:  20px;
+    color: white;
+    padding: 7px;
+    margin-top: 0px;
+  }
+
+  .header-box {
+    background: black;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .nav-button {
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .green-market-button {
+    background: #44dbbd;
+    border: 2px solid transparent;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    padding: 8px;
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+
+  .green-market-button:hover {
+    border: 2px solid #44dbbd;
+    color: #44bdbd;
+    background: black;
+  }
+
+
+  .green-market-button-zero {
+    padding: 2px;
+    border-radius: 30px;
+    margin-left: 0px;
+  }
+
+  .nav-button:hover {
+    color: #CCCCCC;
+  }
+
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .green-cart-button {
+    background: black;
+    border: 1px solid black;
+    color: #44dbbd;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0px;
+  }
+
+  .just-basic-title {
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    letter-spacing: 0.02em;
+    font-weight: 800;
+  }
+
+  .just-basic-grey-text-box {
+    width: 100%;
+    background: #cccccc26;
+  }
+
+  .just-basic-grey-title-wrapper {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 25%;
+  }
+
+
+  .only-text {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    letter-spacing: 0.05em;
+    line-height: 19px;
+  }
+
+  .only-text-last {
+    padding-top: 20px;
+  }
+
+
+  .text-before-input {
+    letter-spacing: 0.05em;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+
+
+
+.green-big-button:hover {
+    border: 2px solid #44dbbd;
+    background: white; 
+    color: #44dbbd;
+  }
+  
+
+
+.part-with-inputs {
+    padding-left: 5%;
+}
+  
+
+.green-text {
+color: #2d927e;
+letter-spacing: 0.05em;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+}
+
+
+.box-with-mailing-list-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.column-with-input-first {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .green-big-button {
+    width: 300px;
+    padding: 6px;
+    border: 2px solid #44dbbd;
+    background: #44dbbd; 
+    color: white;
+    margin-top: 12px;
+  }
+
+
+
+  .first-row {
+    width: 300px;
+    padding: 6px;
+    color: #CCCCCC40;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #CCCCCC40;
+    
+  }
+
+  
+  .footer-title {
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   .footer-text {
+    line-height: 1.4em;
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+
+
+
+
+.footer-box {
+    background: #cccccc26;
+}
+
+
+
+.first-footer-row {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+ 
+}
+
+
+.button-without-background {
+    color: black;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 6px;
+    background: none;
+    border: none;
+   }
+
+   .button-column {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .column-with-input {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+  }
+
+
+.column-with-text-center {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.text-footer-part {
+  font-size: 12px;
+  color: #a0a09f;
+  padding-top: 35px;
+}
+   
+
+.second-first-row {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+
+
+  @media (max-width: 767px) {
+    .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .box-with-header-logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+
+      .header-logo-first {
+        font-size: 60px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+      }
+
+      .header-menu {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .box-with-smart-house-technic {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .left-text-part {
+        margin-left: 50px;
+      }
+
+      .chips-text {
+        font-size: 13px;
+        padding-left: 40px;
+      }
+
+      .header-logo-second-green {
+        margin-left: 40%;
+      }
+      
+      .green-market-button-zero {
+        margin-left: 22px;
+      }
+
+      .green-cart-button {
+        margin-left: 18px;
+      }
+
+
+
+      .just-basic-title {
+        font-size: 25px;
+        padding-left: 30px;
+    }
+
+    .box-with-mailing-list-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .only-text {
+        padding-left: 20px;
+    }
+
+
+    .text-before-input {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .green-text {
+        padding-left: 10px;
+    }
+
+    .first-row {
+        width: 140px;
+    }
+
+    .green-big-button {
+        width: 140px;
+    }
+
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      
+      .first-footer-row {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .column-with-text {
+        text-align: center;
+      }
+      
+      .column-with-text-center {
+        text-align: center;
+        padding-bottom: 30px;
+      }
+      
+      .second-first-row {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .text-footer-part {
+        text-align: center;
+      }
+      
+      .just-img-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+      }
+      
+      .column-with-input {
+        display: flex;
+        justify-content: center;
+        padding-left: 28%;
+        padding-top: 50px;
+      }
+
+      .column-with-input-first {
+        align-items: center;
+      }
+
+
+    }
